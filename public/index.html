@@ -14,6 +14,11 @@
   <script src="js/react.min.js"></script>
   <script src="js/react-dom.min.js"></script>
     
+    <!-- custom CSS for sidebar -->
+    <link href="css/sidebar.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    
+    
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -22,32 +27,47 @@
 <body>
   <script src="js/scripts.js"></script>
     
+    <!--
+    
     <div class = "embed-responsive embed-responsive-16by9"><video id='simpleMovie' src ='three.webm' autoplay loop muted ></video></div>
-    
-    <div class = "container-fluid">
-    <ul class="nav nav-pills nav-stacked">
-  <li role="presentation" class="active"><a href="#">Home</a></li>
-  <li role="presentation"><a href="/gallery.html">Gallery</a></li>
-  <li role="presentation"><a href="/messages.html">Messages</a></li>
-</ul>
-    </div>
-    
-    
-    <div class="dropdown">
+
+    //-->
+ <div id="sidebar_menu">  
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Bdintex
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="/about.html">Our History</a>
+                </li>
+                <li>
+                    <a href="/gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="/messages.html">Message Us</a>
+                </li>
+            </ul>
+        </div>
         
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-      <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        <a href="#menu-toggle" class="btn btn-default btn-lg" id="menu-toggle"><span class="glyphicon glyphicon-option-vertical menu-button" aria-hidden="true" ></span></a>
     
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li><a href="#">Separated link</a></li>
-  </ul>
-</div>
     
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+    
+</div>  
     
     
     
