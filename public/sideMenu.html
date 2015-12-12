@@ -1,14 +1,40 @@
-<!DOCTYPE html>
-    <head>
-       <script src="js/jquery.min.js"></script>
+<link href="css/sidebar.css" rel="stylesheet">
+<link href="css/stylesheet.css" rel="stylesheet">
+
+
+<div id="sidebar_menu">  
+    <div id="wrapper">
+
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Bdintex
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="/about.html">Our History</a>
+                </li>
+                <li>
+                    <a href="/gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="/messages.html">Message Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
         
-               
-
-
-    </head>
-
-    <body>
-
-
-
-    </body>
+<a href="#menu-toggle" class="btn btn-default btn-lg" id="menu-toggle"><span class="glyphicon glyphicon-option-vertical menu-button" aria-hidden="true" ></span></a>
+ 
