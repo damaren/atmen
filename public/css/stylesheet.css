@@ -2,6 +2,7 @@ a.btn-lg {
     border-radius: 0px;
     border: none;   
     outline-color: white;
+    position: fixed;
 }
 
 a.btn-lg :hover {
@@ -20,7 +21,7 @@ a.btn-lg :hover {
 
 ul.sidebar-nav {
     font-family: 'Roboto Mono', serif;
-    text-align: right;
+    text-align: left;
     font-size: 20px;
     letter-spacing: 3px;
     
