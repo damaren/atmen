@@ -1,4 +1,5 @@
 a.btn-lg {
+    padding-left: 250px;
     border-radius: 0px;
     border: none;   
     outline-color: white;
@@ -7,4 +8,24 @@ a.btn-lg {
 a.btn-lg :hover {
     
 }
+
+#bdintex_menu {
+    color: #0000cc;
+    font-family: 'Droid Serif', serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+ul.sidebar-nav {
+    font-family: 'Roboto Mono', serif;
+    text-align: right;
+    font-size: 20px;
+    letter-spacing: 3px;
+    
+    
+}
+
 

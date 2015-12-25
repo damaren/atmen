@@ -8,11 +8,11 @@
   <meta name="description" content="our content">
   <meta name="authors" content="Mihail and Damaren">
 
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/react.min.js"></script>
-  <script src="js/react-dom.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/react.min.js"></script>
+    <script src="js/react-dom.min.js"></script>
     <script src="js/scripts.js"></script>
 
 
@@ -36,6 +36,15 @@
               $("#includedContent").load("/sideMenu.html");
               });
         </script>
+    
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+    
+    
     
     <div id="includedContent"></div>
 
