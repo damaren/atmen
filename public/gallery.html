@@ -30,42 +30,17 @@
     <div class = "embed-responsive embed-responsive-16by9"><video id='simpleMovie' src ='three.webm' autoplay loop muted ></video></div>
 
     //-->
- <div id="sidebar_menu">  
-    <div id="wrapper">
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        Bdintex
-                    </a>
-                </li>
-                <li>
-                    <a href="/index.html">Home</a>
-                </li>
-                <li>
-                    <a href="/about.html">Our History</a>
-                </li>
-                <li>
-                    <a href="#">Gallery</a>
-                </li>
-                <li>
-                    <a href="/messages.html">Message Us</a>
-                </li>
-            </ul>
-        </div>
-        
-        <a href="#menu-toggle" class="btn btn-default btn-lg" id="menu-toggle"><span class="glyphicon glyphicon-option-vertical menu-button" aria-hidden="true" ></span></a>
     
+    <!-- SideBar function -->
+        <script>
+            $(function(){
+              $("#includedContent").load("/sideMenu.html");
+              });
+        </script>
     
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
+    <div id="includedContent"></div>
+
     
-  </div>  
 
 <h1 style="margin-top:150px; margin-bottom:50px" align="center">Responsive Image Carousel with Angular.js</h1>
 
