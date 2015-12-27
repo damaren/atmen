@@ -1,11 +1,13 @@
 a.btn-lg {
     border-radius: 0px;
     border: none;   
-    outline-color: white;
-    position: fixed;
+    z-index: 1000;
+    background: rgba(255,255,255,0);
+
 }
 
 a.btn-lg :hover {
+    background: rgba(255,255,255,0.2);
     
 }
 
@@ -20,8 +22,8 @@ a.btn-lg :hover {
 }
 
 ul.sidebar-nav {
-    font-family: 'Roboto Mono', serif;
-    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
     font-size: 20px;
     letter-spacing: 3px;
     

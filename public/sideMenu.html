@@ -4,17 +4,12 @@
 <!-- font for BDINTEX Logo -->
 <link href='https://fonts.googleapis.com/css?family=Droid+Serif:700' rel='stylesheet' type='text/css'>
 <!-- font for Menu items -->
-<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:100' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
 
-
-<div class="container" id="sidebar_menu">  
-    <div id="wrapper">
-
-        <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="/index.html">
-                        <p id='bdintex_menu'><img src="logo.jpg" style="width:250px; height:50px;"></p>
+                        <p id='bdintex_menu'>Bdintex</p>
                     </a>
                 </li>
                 <li>
@@ -30,18 +25,16 @@
                     <a href="/messages.html">Message Us</a>
                 </li>
             </ul>
-        </div>
+      
+            
         
-        <div id='button'>
-    <a href="#menu-toggle" class="btn btn-default btn-lg" id="menu-toggle"><span class="glyphicon glyphicon-option-vertical menu-button" aria-hidden="true" ></span></a>
-</div>
+     
         
-        <script>
+<script>
+    $("#wrapper").toggleClass("toggled");
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
-    </script>
-        
-    </div>
-</div>
+</script>
+    

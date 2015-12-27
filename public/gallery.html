@@ -34,15 +34,18 @@
     <!-- SideBar function -->
         <script>
             $(function(){
-              $("#includedContent").load("/sideMenu.html");
+              $("#sidebar-wrapper").load("/sideMenu.html");
               });
         </script>
     
-    <div id="includedContent"></div>
-
+    <div class='container-fluid' id="wrapper">
+        <div id='sidebar-wrapper'></div>
+        <div id='page-content-wrapper'>
+            <a href="#menu-toggle" class="btn btn-default btn-lg" id="menu-toggle"><span class="glyphicon glyphicon-option-vertical menu-button" aria-hidden="true" ></span></a>
+        
     
 
-<h1 style="margin-top:150px; margin-bottom:50px" align="center">BDINTEX</h1>
+
 
 <div ng-app="carousel">
 
@@ -105,6 +108,9 @@
   </div>
 
 </div>
+        </div>
+    </div>
+
 
 <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js'></script> 
 
