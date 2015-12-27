@@ -6,29 +6,25 @@ a.btn-lg {
     position: fixed;
 }
 
-a.btn-lg :hover {
-    background: rgba(255,255,255,0.2);
+a.btn-lg:hover {
+    background: rgba(255,255,255,0);
     
 }
 
-#bdintex_menu {
-    color: #0000bb;
-    font-family: 'Droid Serif', serif;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 35px;
-    text-decoration: underline;
+a.btn-lg:focus{
+    background: rgba(255,255,255,0);
+
+}
+
+a.btn-lg:active{
+    background: rgba(255,255,255,0);  
 }
 
 ul.sidebar-nav {
     font-family: 'Roboto', sans-serif;
     text-align: right;
-    
     font-size: 20px;
     letter-spacing: 3px;
-    
-    
 }
 
 #logo {

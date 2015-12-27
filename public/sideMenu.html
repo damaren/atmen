@@ -1,34 +1,32 @@
 <link href="css/sidebar.css" rel="stylesheet">
 <link href="css/stylesheet.css" rel="stylesheet">
 
-<!-- font for BDINTEX Logo -->
-<link href='https://fonts.googleapis.com/css?family=Droid+Serif:700' rel='stylesheet' type='text/css'>
 <!-- font for Menu items -->
 <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
 
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="/index.html">
-                        <img id='logo' src='logo.gif'></img>
-                    </a>
-                </li>
-                <li>
-                    <a href="/index.html">Home</a>
-                </li>
-                <li>
-                    <a href="/about.html">Our History</a>
-                </li>
-                <li>
-                    <a href="/gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="/messages.html">Message Us</a>
-                </li>
-            </ul>
 
+<ul class="sidebar-nav">
+    <li class="sidebar-brand">
+        <a href="/index.html">
+            <img id='logo' src='logo.gif'></img>
+        </a>
+    </li>
+    <li>
+        <a href="/index.html">Home</a>
+    </li>
+    <li>
+        <a href="/about.html">Our History</a>
+    </li>
+    <li>
+        <a href="/gallery.html">Gallery</a>
+    </li>
+    <li>
+        <a href="/messages.html">Message Us</a>
+    </li>
+</ul>
+   
 <script>
-    $("#wrapper").toggleClass("toggled");
-    $("#menu-toggle").click(function(e) {
+    $("#menu-toggled").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
