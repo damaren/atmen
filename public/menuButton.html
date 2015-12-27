@@ -1,0 +1,17 @@
+<link href="css/sidebar.css" rel="stylesheet">
+<link href="css/stylesheet.css" rel="stylesheet">
+
+<div id='menuButton'>
+    <a href="#menu-toggle" class="btn btn-default btn-lg" id="menu-toggle">
+        <span class="glyphicon glyphicon-option-vertical menu-button" aria-hidden="true" >
+        </span>
+    </a>
+</div>
+
+
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+</script>
