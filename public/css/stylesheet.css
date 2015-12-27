@@ -3,7 +3,7 @@ a.btn-lg {
     border: none;   
     z-index: 1000;
     background: rgba(255,255,255,0);
-
+    position: fixed;
 }
 
 a.btn-lg :hover {
@@ -12,7 +12,7 @@ a.btn-lg :hover {
 }
 
 #bdintex_menu {
-    color: #0000cc;
+    color: #0000bb;
     font-family: 'Droid Serif', serif;
     text-align: center;
     text-transform: uppercase;
@@ -24,10 +24,19 @@ a.btn-lg :hover {
 ul.sidebar-nav {
     font-family: 'Roboto', sans-serif;
     text-align: right;
+    
     font-size: 20px;
     letter-spacing: 3px;
     
     
 }
 
+#logo {
+    width: 240px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
 
